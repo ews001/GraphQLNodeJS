@@ -1,0 +1,12 @@
+query GetUsers {
+  user() {
+    names
+    create_at
+    etc
+  },
+    users() {
+    names
+    create_at
+    etc
+  }
+}

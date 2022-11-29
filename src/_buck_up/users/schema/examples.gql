@@ -1,0 +1,14 @@
+query GetUsers {
+  user(title: "Recipe 1") {
+    fullName
+    creationDate
+  }
+}
+
+query GetUsers2 {
+  users {
+   fullName
+   creationDate
+  }
+}
+
